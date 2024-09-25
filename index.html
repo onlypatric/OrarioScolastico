@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div style="width: 100vw;height: 100vh;display: grid;place-items: center;">
+    <table>
+      <thead>
+        <tr>
+          <th></th> <!-- Per le ore spostiamo tutti i giorni a destra di una cella-->
+          <th style="font-weight: 600;font-family: sans-serif;">Lunedì</th>
+          <th style="font-weight: 600;font-family: sans-serif;">Martedì</th>
+          <th style="font-weight: 600;font-family: sans-serif;">Mercoledì</th>
+          <th style="font-weight: 600;font-family: sans-serif;">Giovedì</th>
+          <th style="font-weight: 600;font-family: sans-serif;">Venerdì</th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+
+        <tr style="background-color: #f1f1f1;">
+          <td style="font-family: sans-serif; font-size: 12px; color: gray; text-align: right;">7.47-8.40</td>
+          <td style="color: #138a36; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Pistarino Anna</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Lingua e letteratura italiana</p>
+          </td>
+          <td style="color: #138a36; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Pistarino Anna</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Lingua e letteratura italiana</p>
+          </td>
+          <td style="color: #c6ca53; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Punta Stefano, Testa Alberto</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Lab. informatica</p>
+          </td>
+          <td style="color: #9e4770; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Marenco Sandro</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Lingua inglese</p>
+          </td>
+          <td style="color: #28666e; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">La Barbera Sabrina</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Religione cattolica</p>
+          </td>
+        </tr>
+        <tr>
+          <td style="font-family: sans-serif; font-size: 12px; color: gray; text-align: right;">8.41-9.31</td>
+          <td style="color: #c884a6; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Pistarino Anna</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Storia</p>
+          </td>
+          <td style="color: #138a36; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Pistarino Anna</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Lingua e letteratura italiana</p>
+          </td>
+          <td style="color: #c6ca53; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Punta Stefano, Testa Alberto</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Lab. informatica</p>
+          </td>
+          <td style="color: #ed254e; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Bellantone Maurizio, Giacomin Riccardo</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Lab. gestione progetti</p>
+          </td>
+          <td style="color: #9e4770; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Marenco Sandro</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Lingua inglese</p>
+          </td>
+        </tr>
+        <tr style="background-color: #f1f1f1;">
+          <td style="font-family: sans-serif; font-size: 12px; color: gray; text-align: right;">9.39-10.29</td>
+          <td style="color: #090909; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Santangeletta Ilaria</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Matematica</p>
+          </td>
+          <td style="color: #090909; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Santangeletta Ilaria</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Matematica</p>
+          </td>
+          <td style="color: #ed254e; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Giacomin Riccardo</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Gestione progetti, org. impr.</p>
+          </td>
+          <td style="color: #ed254e; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Bellantone Maurizio, Giacomin Riccardo</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Lab. gestione progetti</p>
+          </td>
+          <td style="color: #c6ca53; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Testa Alberto</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Informatica</p>
+          </td>
+        </tr>
+        <tr>
+          <td style="font-family: sans-serif; font-size: 12px; color: gray; text-align: right;">10.30-11.22</td>
+          <td style="color: #826aed; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Bellantone Maurizio, Tedesco Simone</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Lab. sistemi e reti</p>
+          </td>
+          <td style="color: #826aed; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Tedesco Simone</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Sistemi e reti</p>
+          </td>
+          <td style="color: #9e4770; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Marenco Sandro</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Lingua inglese</p>
+          </td>
+          <td style="color: #138a36; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Pistarino Anna</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Lingua e letteratura italiana</p>
+          </td>
+          <td style="color: #c6ca53; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Testa Alberto</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Informatica</p>
+          </td>
+        </tr>
+        <tr style="background-color: #f1f1f1;">
+          <td style="font-family: sans-serif; font-size: 12px; color: gray; text-align: right;">11.23-12.13</td>
+          <td style="color: #826aed; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Bellantone Maurizio, Tedesco Simone</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Lab. sistemi e reti</p>
+          </td>
+          <td style="color: #c6ca53; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Punta Stefano, Testa Alberto</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Lab. informatica</p>
+          </td>
+          <td style="color: #c884a6; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Pistarino Anna</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Storia</p>
+          </td>
+          <td style="color: #138a36; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Pistarino Anna</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Lingua e letteratura italiana</p>
+          </td>
+          <td style="color: #62ab37; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Tedesco Simone</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Lab. tecnol. e prog.</p>
+          </td>
+        </tr>
+        <tr>
+          <td style="font-family: sans-serif; font-size: 12px; color: gray; text-align: right;">12.21-13.10</td>
+          <td style="color: #826aed; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Bellantone Maurizio, Tedesco Simone</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Lab. sistemi e reti</p>
+          </td>
+          <td style="color: #6b2b06; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Guidetti Silvia</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Scienze motorie</p>
+          </td>
+          <td style="color: #62ab37; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Tedesco Simone</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Tecnologia e prog. di sist. inf</p>
+          </td>
+          <td style="color: #090909; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Santangeletta Ilaria</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Matematica</p>
+          </td>
+          <td style="color: #62ab37; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Tedesco Simone</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Lab. tecnol. e prog.</p>
+          </td>
+        </tr>
+        <tr style="background-color: #f1f1f1;">
+          <td style="font-family: sans-serif; font-size: 12px; color: gray; text-align: right;">13.11-14.05</td>
+          <td style="color: #c6ca53; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Testa Alberto</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Informatica</p>
+          </td>
+          <td style="color: #6b2b06; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Guidetti Silvia</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Scienze motorie</p>
+          </td>
+          <td style="color: #62ab37; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Tedesco Simone</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Tecnologia e prog. di sist. inf</p>
+          </td>
+          <td style="color: #c6ca53; font-family: sans-serif; width: 15vw; height: 70px;">
+            <h6 style="padding:0;margin:0;font-weight:200">Testa Alberto</h6>
+            <p style="font-weight:600;padding:2.5px;margin:1px">Informatica</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>
