@@ -1,0 +1,90 @@
+    body {
+      font-family: sans-serif;
+    }
+
+    th.giorno,
+    p.semibold {
+      font-weight: 600;
+    }
+
+    tr.bg-grigio {
+      background-color: #f1f1f1;
+    }
+
+    td.materia-container {
+      width: 15vw;
+      height: 70px;
+    }
+
+    h6.insegnante {
+      padding: 0;
+      margin: 0;
+      font-weight: 200;
+    }
+
+    p.materia {
+      font-weight: 600;
+      padding: 2.5px;
+      margin: 1px;
+    }
+
+    td.ora {
+      font-family: sans-serif;
+      font-size: 12px;
+      color: gray;
+      text-align: right;
+    }
+
+    div.container {
+      width: 100vw;
+      height: 100vh;
+      display: grid;
+      place-items: center;
+    }
+
+    td.legenda {
+      font-family: sans-serif;
+      text-align: center;
+      font-size: 12px;
+      color: gray;
+    }
+
+    .verde {
+      color: #138a36;
+    }
+
+    .rosa {
+      color: #c884a6;
+    }
+
+    .giallo {
+      color: #c6ca53;
+    }
+
+    .violaceo {
+      color: #9e4770;
+    }
+
+    .rosso {
+      color: #ed254e;
+    }
+
+    .nero {
+      color: #090909;
+    }
+
+    .viola {
+      color: #826aed;
+    }
+
+    .verde-chiaro {
+      color: #62ab37
+    }
+
+    .marrone {
+      color: #6b2b06
+    }
+
+    .azzurrochiarospento {
+      color: #28666e
+    }

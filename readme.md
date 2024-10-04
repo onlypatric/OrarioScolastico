@@ -12,4 +12,4 @@ simply open your browser pointing to the index.html file or open a quick server 
 
 ### version
 
-- 1.0 (probably last though)
+- 1.3 (probably last though)
